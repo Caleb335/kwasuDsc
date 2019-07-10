@@ -1,0 +1,331 @@
+body {
+    font-family: Lato, sans-serif;
+    color: #353232;
+    background-color: #fff;
+}
+
+
+/* changed the acitve nav link */
+
+.navbar-nav .active {
+    color: #353232 !important;
+}
+
+.nav-header {
+    background-color: black;
+}
+
+.bg-intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../images/emma-matthews-973230-unsplash.jpg");
+    background-size: cover;
+    padding: 150px 200px 100px 200px;
+    color: white;
+}
+
+.intros .head {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.intros .sub {
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.about-head,
+.lead-head,
+.partners-head {
+    font-size: 32px;
+    line-height: 5px;
+    padding-top: 15px;
+    font-family: 'Literata', serif;
+}
+
+.article-head {
+    line-height: 35px;
+}
+
+.about-sub,
+.lead-sub,
+.partners-sub {
+    font-size: 16px;
+}
+
+.article-sub {
+    font-size: 16px;
+}
+
+.section {
+    background-color: #f1f2f6
+}
+
+.lead-img {
+    height: 175px;
+    width: 175px;
+    border: 2px solid #E5E5E5;
+    border-radius: 50%;
+}
+
+.lead-radius {
+    border-radius: 20px;
+}
+
+.lead-name {
+    font-weight: bold;
+}
+
+.lead-post {
+    font-size: 14px;
+    line-height: 0;
+}
+
+.partners-head {
+    color: #181616;
+}
+
+.partners-img {
+    width: 100%;
+    height: 200px;
+}
+
+.tracks {
+    background-color: #f1f2f6
+}
+
+.tracks-bg {
+    background-color: #4ed3ad;
+}
+
+.tracks-bg .head {
+    color: rgb(34, 32, 32);
+    font-size: 26px;
+}
+
+.tracks-bg .sub {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 0;
+}
+
+.quote {
+    font-size: 14px;
+    font-style: italic;
+    display: none;
+}
+
+.aba {
+    height: 200px;
+}
+
+.subscribe {
+    background-color: #f1f2f6
+}
+
+.subscribe .row .desc p {
+    font-weight: 600;
+    font-size: 34px;
+    color: #0084F4;
+    text-align: right;
+    line-height: 30px;
+}
+
+.subscribe .row .desc .right {
+    font-size: 15px;
+    line-height: 0px;
+    font-weight: lighter;
+    color: #000000;
+    text-align: right;
+}
+
+.form-control,
+.submit {
+    border-radius: 30px;
+}
+
+.link {
+    color: #fdcb6e;
+}
+
+.copy {
+    font-size: 15px;
+    line-height: 0px;
+    color: #fdcb6e;
+    font-weight: 200;
+}
+
+.made {
+    font-size: 11px;
+    color: #fdcb6e;
+    line-height: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .border-outline {
+        width: 100%;
+    }
+    .h1 {
+        font-size: 35px;
+        font-weight: bolder
+    }
+    .coder {
+        height: 280px;
+        width: 90%
+    }
+    .logo {
+        height: 30px;
+        width: 100px;
+    }
+    .bg-intro {
+        padding: 80px 40px 70px 40px;
+    }
+    .intros .head {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .intros .sub {
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 15px;
+        font-weight: 100;
+    }
+    .about-head,
+    .lead-head,
+    .partners-head {
+        font-size: 20px;
+        line-height: 10px;
+        padding-top: 15px;
+    }
+    .article-head {
+        line-height: 20px;
+    }
+    .lead-head {
+        line-height: 0px;
+    }
+    .about-sub,
+    .lead-sub,
+    .partners-sub {
+        font-size: 12px;
+    }
+    .lead-sub {
+        line-height: 0px;
+    }
+    .article-sub {
+        font-size: 16px;
+    }
+    .article-sub {
+        font-size: 14px;
+    }
+    .lead-img {
+        height: 125px;
+        width: 125px;
+    }
+    .lead-name {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .lead-post {
+        font-size: 12px;
+        line-height: 0px;
+    }
+    .quote {
+        font-size: 14px;
+        line-height: 15px;
+        display: block;
+        background-color: #0984e3;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+    .partners-img {
+        width: 100%;
+        height: 125px;
+    }
+    .tracks-bg .head {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .tracks-bg .sub {
+        font-size: 12px;
+        line-height: 0;
+    }
+    .subscribe .row .desc p {
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .subscribe .row .desc .right {
+        font-size: 12px;
+        line-height: 0px;
+        text-align: center;
+    }
+    .form-control,
+    .submit {
+        border-radius: 20px;
+    }
+    .lead-bg {
+        background-color: white;
+        box-shadow: 1px 1px 3px grey;
+        border-radius: 30px;
+    }
+}
+
+
+/*
+<div class="container-fluid section py-3 py-md-5" id="leads">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center lead-head">Leads</p>
+                <p class="text-center lead-sub text-muted pt-2">Meet the sacrificial Leads</p>
+            </div>
+            <div class="row col-10 offset-1 col-md-3 offset-md-0 mt-2 lead-bg">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center pt-2">
+                        <img src="images/logo.jpg" class="lead-img">
+                    </div>
+                    <p class="text-center lead-name mt-2">Jekayinoluwa Olabemiwo</p>
+                    <p class="text-center lead-post">DSC Lead</p>
+                </div>
+                <div class="col-12 align-self-center">
+                    <p class="quote text-center py-4 px-4">"I am always ready to impact. Inspired with the zeal to build World Next Developers. I am a man oh humour and valour. My stack is my way of life. I love who I am."</p>
+                </div>
+            </div>
+            <div class="row col-10 offset-1 col-md-3 offset-md-0 mt-2 lead-bg">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center pt-2">
+                        <img src="images/logo.jpg" class="lead-img">
+                    </div>
+                    <p class="text-center lead-name mt-2">Jekayinoluwa Olabemiwo</p>
+                    <p class="text-center lead-post">DSC Lead</p>
+                </div>
+                <div class="col-12 align-self-center">
+                    <p class="quote text-center py-4 px-4">"I am always ready to impact. Inspired with the zeal to build World Next Developers. I am a man oh humour and valour. My stack is my way of life. I love who I am."</p>
+                </div>
+            </div>
+            <div class="row col-10 offset-1 col-md-3 offset-md-0 mt-2 lead-bg">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center pt-2">
+                        <img src="images/logo.jpg" class="lead-img">
+                    </div>
+                    <p class="text-center lead-name mt-2">Jekayinoluwa Olabemiwo</p>
+                    <p class="text-center lead-post">DSC Lead</p>
+                </div>
+                <div class="col-12 align-self-center">
+                    <p class="quote text-center py-4 px-4">"I am always ready to impact. Inspired with the zeal to build World Next Developers. I am a man oh humour and valour. My stack is my way of life. I love who I am."</p>
+                </div>
+            </div>
+            <div class="row col-10 offset-1 col-md-3 offset-md-0 mt-2 lead-bg">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center pt-2">
+                        <img src="images/logo.jpg" class="lead-img">
+                    </div>
+                    <p class="text-center lead-name mt-2">Jekayinoluwa Olabemiwo</p>
+                    <p class="text-center lead-post">DSC Lead</p>
+                </div>
+                <div class="col-12 align-self-center">
+                    <p class="quote text-center py-4 px-4">"I am always ready to impact. Inspired with the zeal to build World Next Developers. I am a man oh humour and valour. My stack is my way of life. I love who I am."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+*/
